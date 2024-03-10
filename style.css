@@ -1,0 +1,1730 @@
+@font-face {
+    font-family: apple pro;
+    src: url(/sf-pro-display_bold.woff2);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: apple pro;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+/* -------------------------------------------- */
+/* PAGE-0 */
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+
+}
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+#page>nav>button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+}
+#page>nav>h3{
+    font-weight: 400;
+}
+#page>video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page-bottom{
+    height: 20%;
+    width: 25%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page-bottom>h3{
+    /* color: #dadada93; */
+    color: #fff;
+    margin-bottom: 1vw;
+}
+
+
+/* ------------------------------------------------------------- */
+/* PAGE-1 */
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>h1{
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+
+/*==============================================================================*/
+/* PAGE-2 */
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page2>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2>h1{
+    font-size: 3vw;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+/*-------------------------------------------------------------------------------*/
+/* PAGE-3 */
+#page211{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page211>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page211>h1{
+    font-size: 3vw;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+/*------------------------------------------------------------------------------*/
+/* PAGE-4 */
+#page222{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page222>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page222>h1{
+    font-size: 3vw;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+#page222>h2{
+    font-size: 3vw;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0;
+}
+
+
+
+/*====================================================================================*/
+/* PAGE-5 */
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page3>img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#page3-upper{
+    height: 25%;
+    width: 35%;
+    position: absolute;
+    z-index: 9;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page3-upper>img{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+#page3-upper-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    color: #ff823d;
+}
+#page3-upper-inner>h3{
+    font-weight: 500;
+}
+#page3>button{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border: 1px solid #000;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 1.4vw;
+}
+
+
+
+
+/*  <<<<====================================================================================================================================================>>>> */
+
+.page4-5{
+    min-height: 180vh;
+    width: 100vw;
+    /* margin-bottom: 50px; */
+    /* background-color: yellow; */
+}
+
+
+
+/* ONE------------------------------------------------------------------->>>>>>       */
+/* PAGE-6 */
+#page4 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page4>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#center-page4{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    z-index: 1; /* Set a higher z-index to appear on top of the video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*==================================*/
+
+#page5{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.left5{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left5>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right5{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* padding-left: 5vw; */
+}
+.right5>h3{
+    font-size: 1.5vw;
+    width: 90%;
+    color: #484848ac;
+    width: 70%;
+}
+.right5>button{
+    padding: 17px 29px;
+    border: none;
+    background-color: #FF5A00;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+.right5>button:hover {
+    background-color: #ff5900d7;
+}
+
+
+/* TWO------------------------------------------------------------------------------->>>>>>        */
+/* PAGE-7 */
+#page42 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page42>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#center-page42{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    z-index: 1; /* Set a higher z-index to appear on top of the video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*===============================*/
+#page52{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.left52{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left52>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right52{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* padding-left: 5vw; */
+}
+.right52>h3{
+    font-size: 1.5vw;
+    width: 90%;
+    color: #484848ac;
+    width: 70%;
+}
+.right52>button{
+    padding: 17px 29px;
+    border: none;
+    background-color: #FF5A00;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+.right52>button:hover {
+    background-color: #ff5900d7;
+}
+
+/* THREE--------------------------------------------------------------------------------->>>>>>        */
+/* PAGE-8 */
+#page43 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page43>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#center-page43{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    z-index: 1; /* Set a higher z-index to appear on top of the video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*==============================*/
+#page53{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.left53{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left53>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right53{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* padding-left: 5vw; */
+}
+.right53>h3{
+    font-size: 1.5vw;
+    width: 90%;
+    color: #484848ac;
+    width: 70%;
+}
+.right53>button{
+    padding: 17px 29px;
+    border: none;
+    background-color: #FF5A00;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+.right53>button:hover {
+    background-color: #ff5900d7;
+}
+
+
+/* FOUR---------------------------------------------------------->>>>>>  */
+/* PAGE-9 */
+#page44 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page44>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#center-page44{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    z-index: 1; /* Set a higher z-index to appear on top of the video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*=====================================*/
+#page54{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.left54{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left54>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right54{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* padding-left: 5vw; */
+}
+.right54>h3{
+    font-size: 1.5vw;
+    width: 90%;
+    color: #484848ac;
+    width: 70%;
+}
+.right54>button{
+    padding: 17px 29px;
+    border: none;
+    background-color: #FF5A00;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+.right54>button:hover {
+    background-color: #ff5900d7;
+}
+
+
+/* <----------- PAGE4-5 ENDS HERE -------------------------------------------------------------> */
+
+
+
+
+/*======================================================================================================================================================================*/
+/* PAGE-10 */
+#page6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+    /* padding-top: 50px; */
+    
+}
+#page6>h3{
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+#page6>h1{
+    margin-bottom: 1.5vw;
+    font-size: 5vw;
+}
+#page6>p{
+    font-size: 1.6vw;
+    width: 50%;
+    font-weight: 700;
+    color: #545454a1;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* PAGE-11 */
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page7>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 99;
+}
+
+/* PAGE-11 ENDS HERE */
+/* ------------------------------------------------------------------------------------------------ */
+
+/* PAGE-12 */
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+
+}
+#page8>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page8>h1>span{
+    color: #000;
+}
+
+/* PAGE-12 ENDS HERE */
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* PAGE-13 */
+#page9{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page9>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page9>h1>span{
+    color: #000;
+}
+
+/* PAGE-13 ENDS HERE */
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* PAGE-14 */
+#page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+
+}
+#page10>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page10>h1>span{
+    color: #000;
+}
+
+
+/* PAGE-14 ENDS HERE */
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* PAGE-15 */
+#page11{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page11>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page11>h1>span{
+    color: #000;
+}
+
+/* PAGE-15 ENDS HERE */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* PAGE-16 */
+#page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+
+}
+#page12>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page12>h1>span{
+    color: #000;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* PAGE-17   */
+#page13{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page13>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+#page13>h1>span{
+    color: #000;
+}
+
+
+/* ====================================================================================================== */
+/* PAGE-18 */
+#page14{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.left14{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 35px;
+}
+.right14{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+    background-size: cover;
+    margin-top: 80px;
+    margin-right: 35px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* PAGE-19 */
+#page15{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center-page15{
+    height: 90%;
+    width: 93%;
+    position: relative;
+    overflow: hidden;
+}
+#center-page15>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* ========================================================================================================= */
+
+/* PAGE-20 */
+#page16{
+    position: relative;
+    height: 170vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page16>h4{
+    position: absolute;
+    width: 43%;
+    color: #4343439e;
+    font-size: 21px;
+    font-weight: 500;
+    top: 9%;
+    line-height: 30px;
+    text-align: center;
+
+}
+#page16>h4>span{
+    color: #000;
+}
+#page16>img{
+    width: 70%;
+    position: absolute;
+    bottom: 0%;
+}
+#page16>button{
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: #ff823d;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+
+/* <==============================================================================================================================================> */
+/* THIS IS FOR THE PAGES WHICH IS BETWEEN PAGE-16 AND PAGE-17  */
+
+
+/* PAGE-21 */
+#page45 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page45>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#center-page45{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    color: #fff;
+    font-size: 2.7vw;
+    z-index: 1; /* Set a higher z-index to appear on top of the video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#center-page45>h5{
+    font-size: 1.8vw;
+}
+/*=====================================*/
+#page55{
+    display: flex;
+    position: relative;
+    height: 35vh;
+    width: 100vw;
+}
+.left55{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left55>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right55{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* padding-left: 5vw; */
+}
+.right55>h3{
+    font-size: 1.5vw;
+    width: 90%;
+    color: #484848ac;
+    width: 70%;
+}
+.right55>button{
+    padding: 17px 29px;
+    border: none;
+    background-color: #FF5A00;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+.right55>button:hover {
+    background-color: #ff5900d7;
+}
+
+/* <---------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+
+
+/* PAGE-22 */
+#page14a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 170vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.page14a-top{
+    height: 80%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+.left14a{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/c/images/overview/visionos/scaling_ui__gosi0305um2y_large.jpg);
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 35px;
+}
+.right14a{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/c/images/overview/visionos/spatial_interaction__br11mf88bzxy_large.jpg);
+    background-size: cover;
+    margin-top: 80px;
+    margin-right: 35px;
+}
+/* --------------------------------------------------------- */
+.page14a-bottom{
+    display: flex;
+    position: relative;
+    height: 20%;
+    width: 100vw;
+    margin-top: 80px;
+}
+.left14a-b{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left14a-b>h1{
+    font-size: 2.3vw;
+    font-weight: 100;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right14a-b{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-right: 8vw;
+}
+.right14a-b>h3{
+    font-size: 1.4vw;
+    width: 90%;
+    color: #4848488b;
+    line-height: 29px;
+}
+
+/* <<<============================================================================================================>>> */
+
+/* Swiper js */
+/* PAGE-23 */
+
+.swiper {
+    width: 96%;
+    height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page14s-bottom{
+    display: flex;
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    margin-top: 80px;
+}
+.left14s-b{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left14s-b>h1{
+    font-size: 2.3vw;
+    font-weight: 100;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right14s-b{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-right: 8vw;
+}
+.right14s-b>h3{
+    font-size: 1.4vw;
+    width: 90%;
+    color: #4848488b;
+    line-height: 29px;
+}
+/* <<===============================================================================================================================================>> */
+
+/* PAGE-24 */
+#page46 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center-page46{
+    height: 100%;
+    width: 92%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/c/images/overview/visionos/around_you__bfdlxkwczahe_large.jpg);
+}
+
+/*=====================================*/
+#page56{
+    display: flex;
+    position: relative;
+    height: 35vh;
+    width: 100vw;
+    margin-top: 90px;
+}
+.left56{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left56>h1{
+    font-size: 2.1vw;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+    top: 0%;
+}
+.right56{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* padding-left: 5vw; */
+}
+.right56>h3{
+    font-size: 1.5vw;
+    width: 82%;
+    color: #4848488f;
+    line-height: 28px;
+}
+.right56>button{
+    padding: 17px 29px;
+    border: none;
+    background-color: #FF5A00;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+.right56>button:hover {
+    background-color: #ff5900d7;
+}
+
+
+
+
+/* <==============================================================================================================================================> */
+
+
+/* PAGE-25 */
+#page17{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+#page17>h4{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+}
+#page17>h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 3vw;
+}
+#page17>p{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    color: #ffffff7c;
+    width: 50%;
+    text-align: center;
+}
+#page17>p>span{
+    color: #fff;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* PAGE-26 */
+#page18{
+    position: relative;
+    height: auto;
+    width: 100vw;
+    top: 0%;
+    background-color:black;
+}
+#page18>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vw;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* PAGE-27 */
+#page19{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#page19>h4{
+    width: 40%;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* PAGE-28 */
+#page20{
+    position: relative;
+    min-height: 170vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page20>video{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-page20{
+    position: absolute;
+    height: 42%;
+    width: 35%;
+    bottom: 10%;
+    right: 10%;
+    color: #fff;
+}
+#center-page20>h1{
+    margin-bottom: 2.5vw;
+}
+#center-page20>p{
+    font-size: 21px;
+    width: 80%;
+    color: #6a6868;
+    /* margin-bottom: 1.7vw; */
+    line-height: 28px;
+}
+#center-page20>p>span{
+    color: white;
+    /* margin-bottom: 1.7vw; */
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* PAGE-29 */
+#page21 {
+    position: relative;
+    height: 160vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page21>#troff{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    position: absolute;
+    height: 518px;
+    width: 966px;
+    z-index: 9;
+}
+
+#page21>#tron {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    position: absolute;
+    height: 518px;
+    width: 966px;
+}
+
+.page21-bottom {
+    height: 30%;
+    position: absolute;
+    text-align: center;
+    /* background-color: #155980; */
+    color: white;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%, 50px);
+    width: 47%; /* Adjust the width to your preference */
+    /* margin-top: 20px; */
+}
+
+.page21-bottom>h2 {
+    font-size: 2.2vw;
+    margin-bottom: 1.5vw;
+}
+
+.page21-bottom>h6 {
+    color: #6a6868;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+}
+.page21-bottom>h6>span {
+    color: white;
+    font-size: 1.4vw;
+    line-height: 1.8vw;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* PAGE-30 */
+#page22 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page22>#snroff {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 508px;
+    width: 1026px;
+    z-index: 9;
+}
+
+#page22>#snron {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 508px;
+    width: 1026px;
+}
+
+.page22-bottom {
+    height: 30%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 50px);
+    width: 47%;
+}
+
+.page22-bottom>h2 {
+    font-size: 2.2vw;
+    margin-bottom: 1.5vw;
+}
+
+.page22-bottom>h6 {
+    color: #6a6868;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+}
+
+.page22-bottom>h6>span {
+    color: white;
+    font-size: 1.4vw;
+    line-height: 1.8vw;
+}
+
+#page22 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page22>#snroff {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 508px;
+    width: 1026px;
+    z-index: 9;
+}
+
+#page22>#snron {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 508px;
+    width: 1026px;
+}
+
+.page22-bottom {
+    height: 30%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 50px);
+    width: 47%;
+}
+
+.page22-bottom>h2 {
+    font-size: 2.2vw;
+    margin-bottom: 1.5vw;
+}
+
+.page22-bottom>h6 {
+    color: #6a6868;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+}
+
+.page22-bottom>h6>span {
+    color: white;
+    font-size: 1.4vw;
+    line-height: 1.8vw;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+/* PAGE-31 */
+#page23 {
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page23>img {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 693px;
+    width: 1396px;
+    object-fit: cover;
+    opacity: 0;
+}
+
+.page23-bottom {
+    height: 50%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 50px);
+    width: 47%;
+    margin-bottom: 50px;
+}
+
+.page23-bottom>h2 {
+    font-size: 2.2vw;
+    margin-bottom: 1.5vw;
+}
+
+.page23-bottom>h6 {
+    color: #6a6868;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+}
+
+.page23-bottom>h6>span {
+    color: white;
+    font-size: 1.4vw;
+    line-height: 1.8vw;
+}
+
+.page23-bottom>button {
+    padding: 17px 50px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 100;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* PAGE-32 */
+#page24{
+    min-height: 150vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 150px;
+}
+#page24>img{
+    width: 50px;
+}
+#page24>h5{
+    font-size: 2vw;
+}
+#page24>h1{
+    font-size: 5.5vw;
+    text-align: center;
+    font-weight: 900;
+    line-height: 5vw;
+    color: #1D1D1F;
+    margin-top: 20px;
+}
+#page24>p{
+    font-size: 1.7vw;
+    text-align: center;
+    font-weight: 100;
+    width: 65%;
+    line-height: 2vw;
+    color: #86868B;
+    margin-top: 50px;
+}
+#page24>p>span{
+    color: #000;
+}
+#page24>button{
+    padding: 17px 50px;
+    border: none;
+    background-color: #FF6A19;
+    color: white;
+    font-weight: 100;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* PAGE-33 */
+
+#page25 {
+    height: 110vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p25-inner {
+    height: 100%;
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 60px; /* Set margin left and right to 100px */
+    display: flex;
+    background-color: #F5F5F7;
+}
+/* Optional: Add styles for p25-left and p25-right if needed */
+#p25-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 90px;
+}
+#p25-left>img{
+    top: 25%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+#p25-left>h2{
+    font-size: 3.8vw;
+    font-weight: 100;
+}
+#p25-left>h5{
+    font-size: 1.7vw;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #86868B;
+}
+#p25-right {
+    height: 100%;
+    width: 50%;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-right: 80px;
+}
+#p25-right>img{
+    width: 550px;
+    height: 650px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* PAGE-34 */
+
+#page26 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgba(140, 140, 117, 0.247); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#p26-inner {
+    height: 100%;
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 60px; /* Set margin left and right to 100px */
+    display: flex;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#p26-inner>h2{
+    font-size: 3.6vw;
+    font-weight: 100;
+    text-align: center;
+    line-height: 4vw;
+    margin-top: 50px;
+}
+#p26-inner>h5{
+    font-size: 1.5vw;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 2.3vw;
+    margin-top: 20px;
+}
+#p26-inner>h6{
+    font-size: 1.5vw;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 2.3vw;
+    margin-top: 20px;
+    color: rgba(0, 0, 255, 0.547);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* PAGE-35/FOOTER */
